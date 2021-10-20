@@ -9,9 +9,8 @@ body{
     font-size: 10px;
    
 }
-
 .logo-margin{
-    margin-left: 30px; 
+    margin-left: 5px; 
     object-fit: cover; 
 }
 .navbar-center{
@@ -20,7 +19,7 @@ body{
 }
 .moving-text{
     margin-top: 10px;
-    animation: moving-text 15s linear infinite;
+    animation: moving-text 14s linear infinite;
 }
 @keyframes moving-text {
     from{
