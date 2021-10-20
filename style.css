@@ -5,6 +5,16 @@ body{
     overflow-x: hidden;
     overflow-y: auto;
 }
+@media (min-width:968px) {
+    body{
+        max-width: fit-content;
+    }
+}
+@media (max-width:967px) {
+    body{
+        width: fit-content;
+    }
+}
 .nav-div{
     font-size: 10px;
    
