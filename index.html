@@ -16,7 +16,7 @@
 <body class="body-sty">
   <div class="container-fluid">
       <!-- navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-sm-block">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-sm-block sticky-top">
         <div class="container-fluid nav-div">
           <img class="navbar-brand logo-margin" width="50px" height="70px" alt="logo"
             src="https://upload.wikimedia.org/wikipedia/en/1/1f/National_Institute_of_Technology%2C_Raipur_Logo.png">
@@ -163,12 +163,15 @@
       </nav>
       <!-- navbar end -->
       <!-- carousel -->
-      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
-    
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+      
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="https://static.wixstatic.com/media/1cedca_c012c03a686f4560b6a764a126c7a51d~mv2.jpg/v1/fill/w_1920,h_563,al_c,q_85/1cedca_c012c03a686f4560b6a764a126c7a51d~mv2.webp"
+          <img src="https://static.wixstatic.com/media/1cedca_c012c03a686f4560b6a764a126c7a51d~mv2.jpg/v1/fill/w_1920,h_563,al_c,q_85/1cedca_c012c03a686f4560b6a764a126c7a51d~mv2.webp"
               class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
@@ -176,8 +179,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img
-              src="https://static.wixstatic.com/media/1cedca_4ff44183e8cd4a42b1e85b8f7c40912b~mv2.jpg/v1/fill/w_2292,h_672,al_c,q_85,usm_0.66_1.00_0.01/1cedca_4ff44183e8cd4a42b1e85b8f7c40912b~mv2.webp"
+            <img src="https://static.wixstatic.com/media/1cedca_4ff44183e8cd4a42b1e85b8f7c40912b~mv2.jpg/v1/fill/w_2292,h_672,al_c,q_85,usm_0.66_1.00_0.01/1cedca_4ff44183e8cd4a42b1e85b8f7c40912b~mv2.webp"
               class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
@@ -185,16 +187,15 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img
-              src="https://static.wixstatic.com/media/1cedca_a33bff38801940a5b09287093050168e~mv2.jpg/v1/fill/w_1366,h_401,al_c,q_85/1cedca_a33bff38801940a5b09287093050168e~mv2.webp"
+            <img src="https://static.wixstatic.com/media/1cedca_a33bff38801940a5b09287093050168e~mv2.jpg/v1/fill/w_1366,h_401,al_c,q_85/1cedca_a33bff38801940a5b09287093050168e~mv2.webp"
               class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>Some representative placeholder content for the third slide.</p>
             </div>
           </div>
-        </div>
-      </div>
+       
+      </div>    
       <!-- carousel end-->
     
       <!-- registration details part -->
@@ -309,8 +310,8 @@
           </div>
         </div>
       <!-- ends -->
-      <!-- CONFERENCE TOPICS PART -->
-      <div class="text-center mt-3 ">
+      <!-- CONFERENCE TOPICS and main body PART -->
+      <div class="text-center mt-3 " style="margin-bottom: 50px;">
         <h1>CONFERENCE TOPICS</h1>
         <p style="text-align: justify; margin-left: 15%; width: 70%;">The 3rd International Conference on Machine
           Intelligence and
@@ -321,7 +322,7 @@
           proceedings.
           All papers will be reviewed in a double-blind process and accepted papers will be presented at the conference.
         </p>
-        <div class="container mt-4" style="margin-left: 15%; width: 70%;">
+        <div class="container-fluid mt-4" style="margin-left: 15%; width: 70%;">
           <div class="row">
             <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" style="background-color: rgb(178, 247, 252);">
               <h6 class="text-center mt-2">MACHINE LEARNING</h6>
@@ -437,10 +438,115 @@
               takes about 6 hours. Taxi for Yupia
               and share auto service are also available at Naharlagun City or Naharlagun Railway Station as well as Harmuti
               Railway station. </p>
+              <p style="text-align: justify;">
+              <p style="text-align: justify;">Air Link: The nearest Airport is Lilabari (North Lakhimpur) in Assam, which is around 50 km from the institute at Yupia. The flight services for Lilabari Airport is available every day from Netaji Subhash Chandra Bose International Airport, Kolkata (CCU). Lokpriya Gopinath Bordoloi International Airport, Guwahati (GAU) is well connected to major cities. Plan a flight trip from your nearest city
+                 to Guwahati Airport (GAU). After reaching Lilabari/ Guwahati Airport book a Cab/Taxi to reach Yupia. Also, the helicopter service from Guwahati to Naharlagun is daily available except on Sunday.
+              </p>
+              <p style="text-align: justify;">
+                Road Link: Naharlagun is at a distance of 370 km from Guwahati. Day and Night Taxi/bus services are available from Guwahati to Naharlagun.
+              </p>
           </div>
+          <div class="row mt-2">
+            <h1 class="text-center">TIMELINE</h1>
+          </div>
+          <div class="row mt-3" style="background-color: lightgreen;"> 
+           <div class="col-8 text-danger" style="font-size: 20px; padding: 3px;">April 1, 2021, April 30, 2021, May 15, 2021</div>
+           <div class="col-4 text-danger" style="font-size: 20px; padding: 3px;">Paper Submission Due (Final)</div>
+          </div>
+          <div class="row" style="background-color: rgb(70, 221, 70);"> 
+            <div class="col-8 text-danger" style="font-size: 20px; padding: 3px;">April 1, 2021, April 30, 2021, May 15, 2021</div>
+            <div class="col-4 text-danger" style="font-size: 20px; padding: 3px;">Paper Submission Due (Final)</div>
+           </div>
+           <div class="row" style="background-color: rgb(45, 101, 45);"> 
+            <div class="col-8 text-danger" style="font-size: 20px; padding: 3px;">April 1, 2021, April 30, 2021, May 15, 2021</div>
+            <div class="col-4 text-danger" style="font-size: 20px; padding: 3px;">Paper Submission Due (Final)</div>
+           </div>
+           <div class="row" style="background-color: rgb(21, 98, 21);"> 
+            <div class="col-8 text-danger" style="font-size: 20px; padding: 3px;">April 1, 2021, April 30, 2021, May 15, 2021</div>
+            <div class="col-4 text-danger" style="font-size: 20px; padding: 3px;">Paper Submission Due (Final)</div>
+           </div>
+           <div class="row" style="background-color: rgb(5, 66, 5);"> 
+            <div class="col-8 text-danger" style="font-size: 20px; padding: 3px;">April 1, 2021, April 30, 2021, May 15, 2021</div>
+            <div class="col-4 text-danger" style="font-size: 20px; padding: 3px;">Paper Submission Due (Final)</div>
+           </div>
+
+           <div class="row">
+            <h1 class="text-center mt-5">ACADEMIC/TECHNICAL COLLABORATORS</h1>
+           </div>
+            <div class="row">
+              <div class="col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                <img style="border-radius: 50%; object-fit: cover;" src="https://static.wixstatic.com/media/1cedca_d2a0a23188b54f6684ffe881fd47e068~mv2.png/v1/fill/w_143,h_178,al_c,q_85,usm_0.66_1.00_0.01/LOGO%20GREEN.webp" alt="">
+              </div>
+              <div class="col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                 <img style="border-radius: 50%; object-fit: cover;" src="https://static.wixstatic.com/media/1cedca_d2a0a23188b54f6684ffe881fd47e068~mv2.png/v1/fill/w_143,h_178,al_c,q_85,usm_0.66_1.00_0.01/LOGO%20GREEN.webp" alt=""></div>
+              <div class="col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                <img style="border-radius: 50%; object-fit: cover;" src="https://static.wixstatic.com/media/1cedca_d2a0a23188b54f6684ffe881fd47e068~mv2.png/v1/fill/w_143,h_178,al_c,q_85,usm_0.66_1.00_0.01/LOGO%20GREEN.webp" alt="">
+              </div>
+              <div class="col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                <img style="border-radius: 50%; object-fit: cover;" src="https://static.wixstatic.com/media/1cedca_d2a0a23188b54f6684ffe881fd47e068~mv2.png/v1/fill/w_143,h_178,al_c,q_85,usm_0.66_1.00_0.01/LOGO%20GREEN.webp" alt="">
+              </div>
+              <div class="col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                <img style="border-radius: 50%; object-fit: cover;" src="https://static.wixstatic.com/media/1cedca_d2a0a23188b54f6684ffe881fd47e068~mv2.png/v1/fill/w_143,h_178,al_c,q_85,usm_0.66_1.00_0.01/LOGO%20GREEN.webp" alt="">
+              </div>
+              <div class="col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                <img style="border-radius: 50%; object-fit: cover;" src="https://static.wixstatic.com/media/1cedca_d2a0a23188b54f6684ffe881fd47e068~mv2.png/v1/fill/w_143,h_178,al_c,q_85,usm_0.66_1.00_0.01/LOGO%20GREEN.webp" alt="">
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 bg-warning mt-2 pt-3 text-center  text-success">
+                <h4 class="">CONTACT US</h4> 
+                <table class="table">
+                    <tr>
+                      <th scope="col">+91</th>
+                      <th scope="col">0000000000</th>
+                    </tr>
+                    <tr>
+                      <th scope="col">  </th>
+                      <th scope="col">0000000000</th>
+                    </tr>
+                    <tr>
+                      <th scope="col">  </th>
+                      <th scope="col">0000000000</th>
+                    </tr>
+                  </table>
+              </div>
+              <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 bg-success mt-2 pt-3 text-center  text-warning">
+                <h4 class="">VISIT US</h4> 
+                 <p>National Institute of Technology RAIPUR
+                  RAIPUR, Dist : RAIPUR, CHHATISSGARH, INDIA
+                  Contact No. : +91 000000000</p>
+              </div>
+              <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 bg-warning mt-2 pt-3 text-center  text-success">
+                <h4 class="">TELL US</h4> 
+                <div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="div-label">Name</label>
+                    <input type="email" class="div-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="div-label">Query</label>
+                    <input type="password" class="div-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3 div-check">
+                    <input type="checkbox" class="div-check-input" id="exampleCheck1">
+                    <label class="div-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+
+            </div>
         </div>
       </div>
       <!-- end -->
+
+    <!-- footer -->
+    <div class="bg-light">
+      <h6 class="text-center">©2021 by MISP 2021. Designed by Unique Bansal NIT Raipur</h6>
+    </div>
+    <!-- footer end -->
+
       <!-- Optional JavaScript; choose one of the two! -->
     
       <!-- Option 1: Bootstrap Bundle with Popper -->
