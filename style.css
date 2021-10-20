@@ -1,19 +1,8 @@
 
-body{
-    position: relative;
-    max-width: fit-content;
+.body-sty{
+    max-width: fit-content; 
     overflow-x: hidden;
     overflow-y: auto;
-}
-@media (min-width:968px) {
-    body{
-        max-width: fit-content;
-    }
-}
-@media (max-width:967px) {
-    body{
-        width: fit-content;
-    }
 }
 .nav-div{
     font-size: 10px;
@@ -25,17 +14,19 @@ body{
 }
 .navbar-center{
     margin-left: 50px;
-   
 }
 .moving-text{
-    margin-top: 10px;
+   overflow: hidden;
     animation: moving-text 14s linear infinite;
 }
 @keyframes moving-text {
     from{
-        transform: translateX(1000px);
+        overflow: hidden;
+        transform: translateX(100%);
     }
+   
     to{
-        transform: translateX(-1000px)
+        overflow: visible;
+        transform: translateX(-100%)
     }
 }
