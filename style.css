@@ -16,17 +16,17 @@
     margin-left: 50px;
 }
 .moving-text{
-   overflow: hidden;
+  
     animation: moving-text 14s linear infinite;
 }
 @keyframes moving-text {
     from{
-        overflow: hidden;
-        transform: translateX(100%);
+        
+        transform: translateX(1000px);
     }
    
     to{
-        overflow: visible;
-        transform: translateX(-100%)
+       
+        transform: translateX(-100opx)
     }
 }
