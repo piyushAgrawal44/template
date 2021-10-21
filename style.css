@@ -1,6 +1,6 @@
 
 .body-sty{
-    max-width: fit-content; 
+    max-width: 100%; 
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -9,24 +9,32 @@
    
 }
 .logo-margin{
-    margin-left: 5px; 
     object-fit: cover; 
 }
 .navbar-center{
     margin-left: 50px;
 }
 .moving-text{
-  
+    left: 1000px;
     animation: moving-text 14s linear infinite;
 }
+.main-part{
+  margin-left: 15%;
+   width: 70%;
+}
+@media (max-width:967px) {
+    .main-part{
+        margin-left: 0px;
+        width: 100%;
+    }
+}
 @keyframes moving-text {
-    from{
-        
+    from{ 
         transform: translateX(1000px);
     }
    
     to{
        
-        transform: translateX(-100opx)
+        transform: translateX(-1000px)
     }
 }
