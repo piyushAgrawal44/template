@@ -14,11 +14,6 @@
 .navbar-center{
     margin-left: 50px;
 }
-.carousel-img{
-    object-fit: cover;
-    height: auto;
-    width: 1300px;
-}
 .moving-text{
     text-align: center;
     animation: moving-text 3s linear infinite;
@@ -26,14 +21,6 @@
 .main-part{
   margin-left: 15%;
    width: 70%;
-}
-@media (max-width:560px) {    
-.carousel-img{
-    object-fit: cover;
-    height: auto;
-    width: 530px;
-}
-    
 }
 @media (max-width: 967px) and (min-width: 0px) {
     .main-part{
