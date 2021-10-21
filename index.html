@@ -167,7 +167,7 @@
       </nav>
       <!-- navbar end -->
       <!-- carousel -->
-      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade d-none d-sm-block" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -176,7 +176,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img  src="https://static.wixstatic.com/media/1cedca_c012c03a686f4560b6a764a126c7a51d~mv2.jpg/v1/fill/w_1920,h_563,al_c,q_85/1cedca_c012c03a686f4560b6a764a126c7a51d~mv2.webp"
-            class="d-block w-100 carousel-img" alt="...">
+            class="d-block w-100" width="530px" height="350px" style="object-fit: cover;" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>Some representative placeholder content for the first slide.</p>
@@ -184,7 +184,7 @@
           </div>
           <div class="carousel-item">
             <img   src="https://static.wixstatic.com/media/1cedca_4ff44183e8cd4a42b1e85b8f7c40912b~mv2.jpg/v1/fill/w_2292,h_672,al_c,q_85,usm_0.66_1.00_0.01/1cedca_4ff44183e8cd4a42b1e85b8f7c40912b~mv2.webp"
-              class="d-block w-100 carousel-img" alt="...">
+              class="d-block w-100 " width="530px" height="350px" style="object-fit: cover;" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>Some representative placeholder content for the second slide.</p>
@@ -192,7 +192,7 @@
           </div>
           <div class="carousel-item">
             <img src="https://static.wixstatic.com/media/1cedca_a33bff38801940a5b09287093050168e~mv2.jpg/v1/fill/w_1366,h_401,al_c,q_85/1cedca_a33bff38801940a5b09287093050168e~mv2.webp"
-              class="d-block w-100 carousel-img" alt="...">
+              class="d-block w-100 " width="530px" height="350px" style="object-fit: cover;" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>Some representative placeholder content for the third slide.</p>
@@ -204,6 +204,47 @@
           <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div id="carouselExampleCaptions2" class="carousel slide carousel-fade d-block d-sm-none" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img  src="https://static.wixstatic.com/media/1cedca_c012c03a686f4560b6a764a126c7a51d~mv2.jpg/v1/fill/w_1920,h_563,al_c,q_85/1cedca_c012c03a686f4560b6a764a126c7a51d~mv2.webp"
+            class="d-block w-100" width="300px" height="150px" style="object-fit: cover;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img   src="https://static.wixstatic.com/media/1cedca_4ff44183e8cd4a42b1e85b8f7c40912b~mv2.jpg/v1/fill/w_2292,h_672,al_c,q_85,usm_0.66_1.00_0.01/1cedca_4ff44183e8cd4a42b1e85b8f7c40912b~mv2.webp"
+              class="d-block w-100 " width="300px" height="150px" style="object-fit: cover;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://static.wixstatic.com/media/1cedca_a33bff38801940a5b09287093050168e~mv2.jpg/v1/fill/w_1366,h_401,al_c,q_85/1cedca_a33bff38801940a5b09287093050168e~mv2.webp"
+              class="d-block w-100 " width="300px" height="150px" style="object-fit: cover;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
