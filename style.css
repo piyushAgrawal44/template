@@ -16,6 +16,7 @@
 }
 .moving-text{
     left: 1000px;
+    width: 100px;
     animation: moving-text 14s linear infinite;
 }
 .main-part{
