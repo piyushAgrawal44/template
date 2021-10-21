@@ -16,7 +16,8 @@
 }
 .carousel-img{
     object-fit: cover;
-    height: 400px;
+    height: auto;
+    width: 1300px;
 }
 .moving-text{
     text-align: center;
@@ -26,16 +27,19 @@
   margin-left: 15%;
    width: 70%;
 }
-@media (max-width:967px) {
+@media (max-width:560px) {    
+.carousel-img{
+    object-fit: cover;
+    height: auto;
+    width: 530px;
+}
+    
+}
+@media (max-width: 967px) and (min-width: 0px) {
     .main-part{
         margin-left: 0px;
         width: 100%;
     }
-    
-.carousel-img{
-    object-fit: cover;
-    height: 150px;
-}
     
 @keyframes moving-text {
     from{ 
