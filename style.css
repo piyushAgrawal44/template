@@ -1,6 +1,6 @@
 
 .body-sty{
-    width: 100%; 
+    max-width: 100%; 
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -15,9 +15,8 @@
     margin-left: 50px;
 }
 .moving-text{
-    left: 1000px;
-    width: 100px;
-    animation: moving-text 14s linear infinite;
+    margin-left: 10px;
+    animation: moving-text 4s linear infinite;
 }
 .main-part{
   margin-left: 15%;
@@ -31,11 +30,16 @@
 }
 @keyframes moving-text {
     from{ 
-        transform: translateX(1000px);
+        transform: rotate(0deg);
     }
-   
+   45%{
+    transform: rotate(15deg);
+   }
+   90%{
+    transform: rotate(-15deg);
+   }
     to{
        
-        transform: translateX(-1000px)
+         transform: rotate(0deg);
     }
 }
